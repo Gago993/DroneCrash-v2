@@ -17,6 +17,13 @@
 
         vm.marker = { id: 1, coords: { latitude: 50, longitude: -50 }, options: { icon: "/Content/Images/Default/drone.png" } };
                                     
+        vm.drones = [{
+            id: 2, coords: { latitude: 50, longitude: -50 }
+        },
+        {
+            id: 3, coords: { latitude: 51, longitude: -50 }
+        }];
+
 
         getWeather();
 
@@ -32,5 +39,14 @@
             });
             
         }
+
+        function getNearDrones() {
+
+            vm.nearbyDrones = DroneData.getNearbyDrones({ lat: '41.9973', lon: '21.4280' });
+
+
+        }
+
+
     }
 })()

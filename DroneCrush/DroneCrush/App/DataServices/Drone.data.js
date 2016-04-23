@@ -9,6 +9,10 @@
             'getPlaceStatus': {
                 method: 'GET',
                 url: "/api/GetStatusInfo/GetDroneInfo",
+            },
+            'getNearbyDrones': {
+                method: 'GET',
+                url: "/api/drones/nearby",
             }
         });
     }
