@@ -19,10 +19,10 @@ namespace DroneCrush.Controllers.WebApi
 
         [HttpGet]
         [ResponseType(typeof(EnviromentInfoViewModel))]
-        public IHttpActionResult GetDroneInfo(double ?lat = null, double ?lon = null)
+        public IHttpActionResult GetDroneInfo(double ?lat = null, double? lng = null)
         {
 
-            if (lat == null || lon == null)
+            if (lat == null || lng == null)
             {
                 return BadRequest("Missing Parametars");
             }
@@ -32,12 +32,12 @@ namespace DroneCrush.Controllers.WebApi
             model.Coordinate = new Coordinate()
             {
                 Latitude = Double.Parse(lat.ToString()),
-                Longitude = Double.Parse(lon.ToString())
+                Longitude = Double.Parse(lng.ToString())
             };
 
-            String yahooApi = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places%20where%20text%3D%22("+lat+"%2C"+lon+")%22)&format=json&diagnostics=true&callback=";
+            String yahooApi = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places%20where%20text%3D%22("+lat+"%2C"+lng+")%22)&format=json&diagnostics=true&callback=";
 
-            String googleElevationApiKey = "https://maps.googleapis.com/maps/api/elevation/json?locations="+lat+","+lon+"&key=AIzaSyDTkIcb_EL4fQFTQMe9DA1N5gyQHgmCRGM";
+            String googleElevationApiKey = "https://maps.googleapis.com/maps/api/elevation/json?locations="+lat+","+lng+"&key=AIzaSyDTkIcb_EL4fQFTQMe9DA1N5gyQHgmCRGM";
 
 
 
