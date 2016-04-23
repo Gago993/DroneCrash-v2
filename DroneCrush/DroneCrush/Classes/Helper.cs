@@ -32,5 +32,22 @@ namespace DroneCrush.Classes
         {
             return deg * (Math.PI / 180);
         }
+
+        public static string GetWindDirection(double windDirectionDegrees)
+	    {
+            if(windDirectionDegrees >= 0 && windDirectionDegrees < 45){
+                return "N";
+            }else if(windDirectionDegrees >= 45 && windDirectionDegrees < 135){
+                return "E";
+            }else if(windDirectionDegrees >= 135 && windDirectionDegrees < 225){
+                return "S";
+            }else if(windDirectionDegrees >= 225 && windDirectionDegrees < 315){
+                return "W";
+            }else if(windDirectionDegrees >= 315 && windDirectionDegrees <=360){
+                return "N";
+            }
+
+            else return "NA";
+	    }
     }
 }

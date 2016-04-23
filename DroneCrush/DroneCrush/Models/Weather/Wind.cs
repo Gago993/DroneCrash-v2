@@ -9,7 +9,7 @@ namespace DroneCrush.Models
     {
         public int chill { get; set; }
         public int direction { get; set; }
-        public int speed { get; set; }
-
+        public double speed { get; set; }
+        public string directionSymbol { get; set; }
     }
 }

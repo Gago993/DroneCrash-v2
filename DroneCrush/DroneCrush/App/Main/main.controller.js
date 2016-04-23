@@ -28,7 +28,7 @@
         $interval(getMyDrone, 1000);
         
         function getWeather() {
-            vm.weatherStatus = DroneData.getPlaceStatus({ lat: '41.9973', lon: '21.4280' });
+            vm.weatherStatus = DroneData.getPlaceStatus({ lat: '41.9973', lng: '21.4280' });
         }
 
         function getNearDrones() {

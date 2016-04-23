@@ -201,6 +201,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\NotFlyZone\NoFlyZone.cs" />
     <Compile Include="Models\Weather\Atmosphere.cs" />
+    <Compile Include="Models\Weather\Condition.cs" />
     <Compile Include="Models\Weather\Elevation.cs" />
     <Compile Include="Models\Weather\Location.cs" />
     <Compile Include="Models\Weather\Unit.cs" />

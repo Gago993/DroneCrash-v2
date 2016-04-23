@@ -1,4 +1,5 @@
-﻿using DroneCrush.DataContext;
+﻿using DroneCrush.Classes;
+using DroneCrush.DataContext;
 using DroneCrush.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -19,10 +20,10 @@ namespace DroneCrush.Controllers.WebApi
 
         [HttpGet]
         [ResponseType(typeof(EnviromentInfoViewModel))]
-        public IHttpActionResult GetDroneInfo(double ?lat = null, double ?lon = null)
+        public IHttpActionResult GetDroneInfo(double ?lat = null, double ?lng = null)
         {
 
-            if (lat == null || lon == null)
+            if (lat == null || lng == null)
             {
                 return BadRequest("Missing Parametars");
             }
@@ -32,12 +33,12 @@ namespace DroneCrush.Controllers.WebApi
             model.Coordinate = new Coordinate()
             {
                 Latitude = Double.Parse(lat.ToString()),
-                Longitude = Double.Parse(lon.ToString())
+                Longitude = Double.Parse(lng.ToString())
             };
 
-            String yahooApi = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places%20where%20text%3D%22("+lat+"%2C"+lon+")%22)&format=json&diagnostics=true&callback=";
+            String yahooApi = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places%20where%20text%3D%22("+lat+"%2C"+lng+")%22)%20and%20u%3D'c'&format=json&callback=";
 
-            String googleElevationApiKey = "https://maps.googleapis.com/maps/api/elevation/json?locations="+lat+","+lon+"&key=AIzaSyDTkIcb_EL4fQFTQMe9DA1N5gyQHgmCRGM";
+            String googleElevationApiKey = "https://maps.googleapis.com/maps/api/elevation/json?locations=" + lat + "," + lng + "&key=AIzaSyDTkIcb_EL4fQFTQMe9DA1N5gyQHgmCRGM";
 
 
 
@@ -54,6 +55,7 @@ namespace DroneCrush.Controllers.WebApi
 
                 JObject wind = weatherResult.query.results.channel.wind;
                 model.Wind = wind.ToObject<Wind>();
+                model.Wind.directionSymbol = Helper.GetWindDirection(model.Wind.direction);
 
                 JObject unit = weatherResult.query.results.channel.units;
                 model.Unit = unit.ToObject<Unit>();
@@ -64,8 +66,8 @@ namespace DroneCrush.Controllers.WebApi
                 JObject atmosphere = weatherResult.query.results.channel.atmosphere;
                 model.Atmosphere = atmosphere.ToObject<Atmosphere>();
 
-                JValue item = weatherResult.query.results.channel.item.condition.text;
-                model.Condition = item.ToObject<string>();
+                JObject item = weatherResult.query.results.channel.item.condition;
+                model.Condition = item.ToObject<Condition>();
 
                 var googleData = wc.DownloadString(googleElevationApiKey);
                 dynamic elevationResult = JsonConvert.DeserializeObject(googleData);
