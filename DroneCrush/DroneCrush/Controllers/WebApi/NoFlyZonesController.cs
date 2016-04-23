@@ -41,7 +41,7 @@ namespace DroneCrush.Controllers.WebApi
             foreach (NoFlyZone zone in zones)
             {
                 double distance = Helper.GetDistanceFromLatLonInMeters(Double.Parse(lat.ToString()), Double.Parse(lng.ToString()), zone.Coordinate.Latitude, zone.Coordinate.Longitude);
-                if (distance < 8000)
+                if (distance < 25000)
                 {
                     double categoryRadius = 0;
                     if (zone.NoFlyCategory == NoFlyCategory.A)
