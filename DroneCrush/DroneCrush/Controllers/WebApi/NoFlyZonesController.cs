@@ -21,35 +21,43 @@ namespace DroneCrush.Controllers.WebApi
         // GET: api/NoFlyZones
         public IQueryable<NoFlyZone> GetNoFlyZones()
         {
-            return db.NoFlyZones;
+            return db.NoFlyZones.Include("Coordinate");
         }
 
         [HttpGet]
         [Route("api/noflyzones/nearby")]
         [ResponseType(typeof(IEnumerable<NoFlyZone>))]
-        public IHttpActionResult GetNoFlyZonesNearby(double? lat = null, double? lng = null)
+        public IHttpActionResult GetNearbyNoFlyZones(double? lat = null, double? lng = null)
         {
 
-            if (lat == null)
+            if (lat == null || lng == null)
             {
                 return BadRequest();
             }
 
-            if (lng == null)
+            IEnumerable<NoFlyZone> zones = db.NoFlyZones.Include("Coordinate").ToList();
+            List<NoFlyZone> noFlyZones = new List<NoFlyZone>();
+
+            foreach (NoFlyZone zone in zones)
             {
-                return BadRequest();
+                double distance = Helper.GetDistanceFromLatLonInMeters(Double.Parse(lat.ToString()), Double.Parse(lng.ToString()), zone.Coordinate.Latitude, zone.Coordinate.Longitude);
+                if (distance < 8000)
+                {
+                    double categoryRadius = 0;
+                    if (zone.NoFlyCategory == NoFlyCategory.A)
+                    {
+                        categoryRadius = 80 / 10;
+                    }
+                    else
+                        categoryRadius = 24 / 10;
+                    
+                    
+                    zone.NoFlyCategoryKm = categoryRadius; 
+                    noFlyZones.Add(zone);
+                }
             }
 
-            IEnumerable<NoFlyZone> zones = db.NoFlyZones.ToList();
-
-            double lat1 = 38.897147;
-            double lng1 = -77.043934;
-
-            
-
-            double distance = Helper.GetDistanceFromLatLonInMeters(Double.Parse(lat.ToString()), Double.Parse(lng.ToString()), lat1, lng1);
-
-            return Ok();
+            return Ok(noFlyZones);
         }
 
         // GET: api/NoFlyZones/5

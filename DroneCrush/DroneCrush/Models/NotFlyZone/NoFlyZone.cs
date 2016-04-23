@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -20,5 +21,8 @@ namespace DroneCrush.Models.NotFlyZone
         public string NoFlyZoneName { get; set; }
 
         public NoFlyCategory NoFlyCategory { get; set; }
+
+        [NotMapped]
+        public double NoFlyCategoryKm { get; set; }
     }
 }

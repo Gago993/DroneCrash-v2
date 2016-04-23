@@ -20,7 +20,7 @@ namespace DroneCrush.Migrations
 
         protected override void Seed(DroneDb context)
         {
-           //LoadNoFlyZones(context);
+            LoadNoFlyZones(context);
 
         }
 
@@ -53,7 +53,11 @@ namespace DroneCrush.Migrations
                     else
                         zoneCategory = NoFlyCategory.B;
 
-                  //  context.NoFlyZones.Add(new NoFlyZone { Latitude = lat, Longitude = lng, NoFlyZoneName = zoneName, NoFlyCategory = zoneCategory});
+                    Coordinate coords = new Coordinate();
+                    coords.Latitude = Double.Parse(lat);
+                    coords.Longitude = Double.Parse(lng);
+
+                   context.NoFlyZones.Add(new NoFlyZone { Coordinate = coords, NoFlyZoneName = zoneName, NoFlyCategory = zoneCategory});
                 }
 
                 fileRead.Close();
