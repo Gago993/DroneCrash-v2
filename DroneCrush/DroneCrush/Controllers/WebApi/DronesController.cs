@@ -10,6 +10,7 @@ using System.Web.Http;
 using System.Web.Http.Description;
 using DroneCrush.DataContext;
 using DroneCrush.Models;
+using DroneCrush.Classes;
 
 namespace DroneCrush.Controllers.WebApi
 {
@@ -25,16 +26,24 @@ namespace DroneCrush.Controllers.WebApi
 
         // GET: api/Drones/5
         [ResponseType(typeof(IEnumerable<Drone>))]
-        public IHttpActionResult GetNearbyDrones(Coordinate coordinate)
+        [Route("api/Drones/Nearby")]
+        public IHttpActionResult GetNearbyDrones(double lat, double lng)
         {
             IEnumerable<Drone> drones = db.Drone.Include("Coordinate").ToList();
+            ICollection<Drone> result = new List<Drone>();
 
             foreach(Drone drone in drones)
             {
-                
+                double distanceInMeters = Helper
+                    .GetDistanceFromLatLonInMeters(lat, lng, drone.Coordinate.Latitude, drone.Coordinate.Longitude);
+
+                if(distanceInMeters <= 8000)
+                {
+                    result.Add(drone);
+                }
             }
 
-            return Ok();
+            return Ok(result);
         }
 
         // GET: api/Drones/5
