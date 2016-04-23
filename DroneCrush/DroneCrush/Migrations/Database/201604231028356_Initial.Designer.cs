@@ -7,13 +7,13 @@ namespace DroneCrush.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class NoFlyZoneMigration : IMigrationMetadata
+    public sealed partial class Initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(NoFlyZoneMigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201604230007015_NoFlyZoneMigration"; }
+            get { return "201604231028356_Initial"; }
         }
         
         string IMigrationMetadata.Source

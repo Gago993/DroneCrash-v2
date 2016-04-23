@@ -8,6 +8,7 @@ namespace DroneCrush.Models
     public class Drone
     {
         public int ID { get; set; }
+        public string Name { get; set; }
         public string DeviceToken { get; set; }
         public Coordinate Coordinate { get; set; }
         public DateTime LastActive { get; set; }

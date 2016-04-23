@@ -7,7 +7,7 @@ using System.Web;
 namespace DroneCrush.Models.NotFlyZone
 {
     public enum NoFlyCategory {
-        A = 5, B = 1
+        A = 80, B = 24
     }
 
     public class NoFlyZone
@@ -15,9 +15,7 @@ namespace DroneCrush.Models.NotFlyZone
         [Key]
         public int ID { get; set; }
 
-        public string Latitude { get; set; }
-
-        public string Longitude { get; set; }
+        public Coordinate Coordinate { get; set; }
 
         public string NoFlyZoneName { get; set; }
 

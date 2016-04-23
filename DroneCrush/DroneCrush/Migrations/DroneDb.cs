@@ -11,6 +11,7 @@ namespace DroneCrush.DataContext
     public class DroneDb : DbContext
     {
         public DbSet<Drone> Drone { get; set; }
+        public DbSet<Coordinate> Coordinate { get; set; }
         public DbSet<NoFlyZone> NoFlyZones { get; set; }
 
         public DroneDb() : base("DefaultConnection")

@@ -20,20 +20,8 @@ namespace DroneCrush.Migrations
 
         protected override void Seed(DroneDb context)
         {
-           LoadNoFlyZones(context);
+           //LoadNoFlyZones(context);
 
-            context.Drone.Add(new Drone()
-            {
-                ID = 1,
-                DeviceToken = "esfads",
-                Coordinate = new Coordinate(){
-                    Latitude = 42.2312,
-                    Longitude = 41.3433
-                },
-                LastActive = DateTime.Now
-            });
-
-            context.SaveChanges();
         }
 
         #region NoFlyZoneData
@@ -65,7 +53,7 @@ namespace DroneCrush.Migrations
                     else
                         zoneCategory = NoFlyCategory.B;
 
-                    context.NoFlyZones.Add(new NoFlyZone { Latitude = lat, Longitude = lng, NoFlyZoneName = zoneName, NoFlyCategory = zoneCategory});
+                  //  context.NoFlyZones.Add(new NoFlyZone { Latitude = lat, Longitude = lng, NoFlyZoneName = zoneName, NoFlyCategory = zoneCategory});
                 }
 
                 fileRead.Close();
