@@ -34,7 +34,7 @@ namespace DroneCrush.Controllers.WebApi
                 
             }
 
-            return Ok(drone);
+            return Ok();
         }
 
         // GET: api/Drones/5
