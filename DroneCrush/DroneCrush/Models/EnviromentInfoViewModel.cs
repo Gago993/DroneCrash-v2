@@ -14,5 +14,6 @@ namespace DroneCrush.Models
         public Atmosphere Atmosphere { get; set; }
         public Elevation Elevation { get; set; }
         public Coordinate Coordinate { get; set; }
+        public string Condition { get; set; }
     }
 }

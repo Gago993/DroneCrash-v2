@@ -64,6 +64,8 @@ namespace DroneCrush.Controllers.WebApi
                 JObject atmosphere = weatherResult.query.results.channel.atmosphere;
                 model.Atmosphere = atmosphere.ToObject<Atmosphere>();
 
+                JValue item = weatherResult.query.results.channel.item.condition.text;
+                model.Condition = item.ToObject<string>();
 
                 var googleData = wc.DownloadString(googleElevationApiKey);
                 dynamic elevationResult = JsonConvert.DeserializeObject(googleData);
