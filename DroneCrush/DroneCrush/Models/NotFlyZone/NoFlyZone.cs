@@ -20,5 +20,6 @@ namespace DroneCrush.Models.NotFlyZone
         public string NoFlyZoneName { get; set; }
 
         public NoFlyCategory NoFlyCategory { get; set; }
+
     }
 }

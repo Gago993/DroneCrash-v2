@@ -94,7 +94,19 @@ namespace DroneCrush.Controllers.WebApi
                 return BadRequest(ModelState);
             }
 
-            db.Drone.Add(drone);
+            Drone dbDrone = db.Drone.Where(d => d.DeviceToken == drone.DeviceToken).FirstOrDefault();
+
+            if (dbDrone == null)
+            {
+                db.Drone.Add(drone);
+            }
+            else
+            {
+                dbDrone.LastActive = DateTime.Now;
+                dbDrone.Coordinate = drone.Coordinate;
+                db.Entry(dbDrone).State = EntityState.Modified;
+            }
+
             db.SaveChanges();
 
             return CreatedAtRoute("DefaultApi", new { id = drone.ID }, drone);
