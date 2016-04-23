@@ -51,7 +51,7 @@ namespace DroneCrush.Controllers.WebApi
                 {
                     return InternalServerError();
                 };
-
+                
                 JObject wind = weatherResult.query.results.channel.wind;
                 model.Wind = wind.ToObject<Wind>();
                 model.Wind.directionSymbol = Helper.GetWindDirection(model.Wind.direction);
@@ -67,7 +67,8 @@ namespace DroneCrush.Controllers.WebApi
 
                 JObject item = weatherResult.query.results.channel.item.condition;
                 model.Condition = item.ToObject<Condition>();
-
+                ConditionsService conditionsService = new ConditionsService();
+                model.Condition.text = conditionsService.GetId(model.Condition.text);
                 var googleData = wc.DownloadString(googleElevationApiKey);
                 dynamic elevationResult = JsonConvert.DeserializeObject(googleData);
 
@@ -85,18 +86,7 @@ namespace DroneCrush.Controllers.WebApi
             string result = "";
             ConditionsService conditionsService = new ConditionsService();
 
-            if (conditionsService.GetCloudyConditions().Contains(condition))
-                result = "cloudy";
-            else if (conditionsService.GetExtremeConditions().Contains(condition))
-                result = "extreme";
-            else if (conditionsService.GetFoggyConditions().Contains(condition))
-                result = "foggy";
-            else if (conditionsService.GetSnowConditions().Contains(condition))
-                result = "snowy";
-            else if (conditionsService.GetRainConditions().Contains(condition))
-                result = "rainy";
-            else
-                result = "clear";
+            result = conditionsService.GetId(condition);
 
             return result;
         }

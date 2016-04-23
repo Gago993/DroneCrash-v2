@@ -36,5 +36,24 @@ namespace DroneCrush.Classes
         {
             return new List<string>() { "mixed rain and snow", "isolated thundershowers", "mixed rain and sleet", "thundershowers", "drizzle", "showers", "mixed rain and hail", "isolated thunderstorms", "scattered thunderstorms", "scattered showers" };
         }
+
+        public string GetId(string condition)
+        {
+            string result = "";
+            if (GetCloudyConditions().Contains(condition))
+                result = "cloudy";
+            else if (GetExtremeConditions().Contains(condition))
+                result = "extreme";
+            else if (GetFoggyConditions().Contains(condition))
+                result = "foggy";
+            else if (GetSnowConditions().Contains(condition))
+                result = "snowy";
+            else if (GetRainConditions().Contains(condition))
+                result = "rainy";
+            else
+                result = "clear";
+
+            return result;
+        }
     }
 }
