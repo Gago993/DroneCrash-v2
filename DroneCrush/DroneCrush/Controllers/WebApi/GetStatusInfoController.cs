@@ -79,6 +79,28 @@ namespace DroneCrush.Controllers.WebApi
             return Ok(model);
         }
 
+        [Route("api/GetStatusInfo/Condition")]
+        public string GetConditionType(string condition="sunny")
+        {
+            string result = "";
+            ConditionsService conditionsService = new ConditionsService();
+
+            if (conditionsService.GetCloudyConditions().Contains(condition))
+                result = "cloudy";
+            else if (conditionsService.GetExtremeConditions().Contains(condition))
+                result = "extreme";
+            else if (conditionsService.GetFoggyConditions().Contains(condition))
+                result = "foggy";
+            else if (conditionsService.GetSnowConditions().Contains(condition))
+                result = "snowy";
+            else if (conditionsService.GetRainConditions().Contains(condition))
+                result = "rainy";
+            else
+                result = "clear";
+
+            return result;
+        }
+
         // humidity (0 - 100) %
         // windSpeed mph
         // visibility  miles
