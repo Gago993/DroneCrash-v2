@@ -21,7 +21,73 @@ namespace DroneCrush.Migrations
         protected override void Seed(DroneDb context)
         {
             LoadNoFlyZones(context);
+            //LoadNoFlyZones(context);
+            LoadDummyDrones(context);
+        }
 
+        private void LoadDummyDrones(DroneDb context)
+        {
+            var drones = new List<Drone>
+            {
+                new Drone
+                {
+                    DeviceToken = "Drone1",
+                    LastActive = DateTime.Now,
+                    Name = "Drone 2",
+                    Coordinate = new Coordinate()
+                    {
+                        Latitude = 41.993739,
+                        Longitude = 21.4359526
+                    },
+                },
+                new Drone
+                {
+                    DeviceToken = "Drone2",
+                    LastActive = DateTime.Now,
+                    Name = "Drone 2",
+                    Coordinate = new Coordinate()
+                    {
+                        Latitude = 41.9969603,
+                        Longitude = 21.4211897
+                    }
+                },
+                new Drone
+                {
+                    DeviceToken = "Drone3",
+                    LastActive = DateTime.Now,
+                    Name = "Drone 3",
+                    Coordinate = new Coordinate()
+                    {
+                        Latitude = 41.9969603,
+                        Longitude = 21.4211897
+                    }
+                },
+                new Drone
+                {
+                    DeviceToken = "Drone4",
+                    LastActive = DateTime.Now,
+                    Name = "Drone 4",
+                    Coordinate = new Coordinate()
+                    {
+                        Latitude = 42.0047346,
+                        Longitude = 21.4124362
+                    }
+                },
+                new Drone
+                {
+                    DeviceToken = "Drone5",
+                    LastActive = DateTime.Now,
+                    Name = "Drone 5",
+                    Coordinate = new Coordinate()
+                    {
+                        Latitude = 42.0648949,
+                        Longitude = 21.2218569
+                    }
+                }
+            };
+
+            drones.ForEach(d => context.Drone.AddOrUpdate(c => c.DeviceToken, d));
+            context.SaveChanges();
         }
 
         #region NoFlyZoneData

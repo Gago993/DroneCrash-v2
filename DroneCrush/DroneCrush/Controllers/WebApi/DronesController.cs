@@ -18,16 +18,30 @@ namespace DroneCrush.Controllers.WebApi
         private DroneDb db = new DroneDb();
 
         // GET: api/Drones
-        public IQueryable<Drone> GetDrone()
+        public IEnumerable<Drone> GetDrone()
         {
-            return db.Drone;
+            return db.Drone.Include("Coordinate").ToList();
+        }
+
+        // GET: api/Drones/5
+        [ResponseType(typeof(IEnumerable<Drone>))]
+        public IHttpActionResult GetNearbyDrones(Coordinate coordinate)
+        {
+            IEnumerable<Drone> drones = db.Drone.Include("Coordinate").ToList();
+
+            foreach(Drone drone in drones)
+            {
+                
+            }
+
+            return Ok();
         }
 
         // GET: api/Drones/5
         [ResponseType(typeof(Drone))]
         public IHttpActionResult GetDrone(int id)
         {
-            Drone drone = db.Drone.Find(id);
+            Drone drone = db.Drone.Where(d => d.ID == id).Include("Coordinate").FirstOrDefault();
             if (drone == null)
             {
                 return NotFound();
