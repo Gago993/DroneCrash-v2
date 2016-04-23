@@ -310,6 +310,9 @@
     <Content Include="Scripts\bower_components\lodash\README.md" />
     <Content Include="Scripts\bower_components\lodash\vendor\backbone\LICENSE" />
     <Content Include="Scripts\bower_components\lodash\vendor\underscore\LICENSE" />
+    <None Include="Properties\PublishProfiles\CrashDrone %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\CrashDrone.pubxml" />
+    <None Include="Properties\PublishProfiles\DroneCrush %282%29.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bower_components\angular-ui-router\release\angular-ui-router.js" />
     <Content Include="Scripts\bower_components\angular-ui-router\release\angular-ui-router.min.js" />
