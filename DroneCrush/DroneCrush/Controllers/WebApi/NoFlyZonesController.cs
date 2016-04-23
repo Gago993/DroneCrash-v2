@@ -10,6 +10,7 @@ using System.Web.Http;
 using System.Web.Http.Description;
 using DroneCrush.DataContext;
 using DroneCrush.Models.NotFlyZone;
+using DroneCrush.Classes;
 
 namespace DroneCrush.Controllers.WebApi
 {
@@ -21,6 +22,34 @@ namespace DroneCrush.Controllers.WebApi
         public IQueryable<NoFlyZone> GetNoFlyZones()
         {
             return db.NoFlyZones;
+        }
+
+        [HttpGet]
+        [Route("api/noflyzones/nearby")]
+        [ResponseType(typeof(IEnumerable<NoFlyZone>))]
+        public IHttpActionResult GetNoFlyZonesNearby(double? lat = null, double? lng = null)
+        {
+
+            if (lat == null)
+            {
+                return BadRequest();
+            }
+
+            if (lng == null)
+            {
+                return BadRequest();
+            }
+
+            IEnumerable<NoFlyZone> zones = db.NoFlyZones.ToList();
+
+            double lat1 = 38.897147;
+            double lng1 = -77.043934;
+
+            
+
+            double distance = Helper.GetDistanceFromLatLonInMeters(Double.Parse(lat.ToString()), Double.Parse(lng.ToString()), lat1, lng1);
+
+            return Ok();
         }
 
         // GET: api/NoFlyZones/5
