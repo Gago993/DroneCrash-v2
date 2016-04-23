@@ -96,8 +96,29 @@ namespace DroneCrush.Controllers.WebApi
         // visibility  miles
         // numberOfDrones drones
         [Route("api/GetStatusInfo/Probability")]
-        public double GetProbability(double humidity = 10, double windSpeed = 50, double visibility = 1, int numberOfDrones = 40, string condition = "Sunny")
+        public IHttpActionResult GetProbability(double humidity = 10, double windSpeed = 50, double visibility = 1, string condition = "Sunny", double ?lat = null, double ?lng = null)
         {
+            if(lat == null && lng == null)
+            {
+                return BadRequest("Missing Parametars");
+            }
+
+
+            IEnumerable<Drone> drones = db.Drone.Include("Coordinate").ToList();
+            int numberOfDrones = 0;
+
+            foreach (Drone drone in drones)
+            {
+                double distanceInMeters = Helper
+                    .GetDistanceFromLatLonInMeters(Double.Parse(lat.ToString()), Double.Parse(lng.ToString()), drone.Coordinate.Latitude, drone.Coordinate.Longitude);
+
+                if (distanceInMeters <= 8000)
+                {
+                    numberOfDrones++;
+                }
+            }
+
+
             ConditionsService conditionsService = new ConditionsService();
             double result = 0;
 
@@ -155,7 +176,7 @@ namespace DroneCrush.Controllers.WebApi
             else if (conditionsService.GetClearConditions().Contains(condition))
                 result += 0.2 * 100;
 
-            return result;
+            return Ok(new { probability = result });
         }
     }
 }
