@@ -59,6 +59,21 @@ namespace DroneCrush.Controllers.WebApi
             return Ok(drone);
         }
 
+        [HttpGet]
+        [ResponseType(typeof(IEnumerable<Drone>))]
+        [Route("api/Drones/Me")]
+        public IHttpActionResult GetMyDrone(string DeviceToken)
+        {
+            Drone drone = db.Drone.Where(d => d.DeviceToken == DeviceToken).Include("Coordinate").FirstOrDefault();
+            if (drone == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(drone);
+        }
+
+
         // PUT: api/Drones/5
         [ResponseType(typeof(void))]
         public IHttpActionResult PutDrone(int id, Drone drone)

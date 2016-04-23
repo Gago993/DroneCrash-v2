@@ -4,12 +4,10 @@
 
         <ui-gmap-google-map center='vm.map.center' zoom='vm.map.zoom'>
 
-            <ui-gmap-marker coords="vm.marker.coords" options="vm.marker.options" events="vm.marker.events" idKey="vm.marker.id">
+            <ui-gmap-marker coords="vm.marker.coords" options="vm.marker.options" events="vm.marker.events" idkey="vm.marker.id">
             </ui-gmap-marker>
-            
-            <ui-gmap-markers models='vm.drones' coords="'self'" >
-            </ui-gmap-markers>
 
+            <ui-gmap-markers models='vm.drones' coords="'self'"></ui-gmap-markers>
 
         </ui-gmap-google-map>
 
@@ -22,6 +20,8 @@
         
 
     </div>
+
+    
 
 
 </div>

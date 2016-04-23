@@ -12,8 +12,14 @@
             },
             'getNearbyDrones': {
                 method: 'GET',
-                url: "/api/drones/nearby",
+                url: "/api/Drones/Nearby",
+                isArray: true
+            },
+            'getMyDrone': {
+                method: 'GET',
+                url: "/api/Drones/Me",
             }
+
         });
     }
 })()
