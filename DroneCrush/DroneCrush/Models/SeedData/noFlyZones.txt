@@ -1,0 +1,644 @@
+-34.9394624;138.5352537;Adelaide Airport;Category A
+-16.8777626;145.74993519999998; Cairns International Airport;Category A
+-28.1656448;153.50907400000006; Gold Coast Airport;Category A
+-27.3942144;153.12183030000006; Brisbane Airport;Category A
+-12.4076667;130.8769979; Darwin International Airport;Category A
+-19.2560275;146.7706207; Townsville Airport;Category A
+-33.9399228;151.17527640000003; Sydney Airport;Category A
+-37.6690123;144.84102729999995; Melbourne Airport;Category A
+-31.9385476;115.96724919999997; Perth Airport;Category A
+-20.377945;118.63164000000006; Port Hedland International Airport;Category A
+48.1158333;16.566575100000023; Vienna International Airport;Category A
+40.464474;50.052053; Heydar Aliyev International Airport;Category A
+50.900999;4.485574400000019; Brussels Airport;Category A
+-10.9472468;-37.07308230000001; Aracaju International Airport;Category A
+-1.3820615;-48.47752270000001; Val de Cans International Airport;Category A
+-23.008205;-47.13756850000004; Viracopos International Airport;Category A
+-20.4686937;-54.67412330000002; Campo Grande International Airport;Category A
+-19.634099;-43.965396; Tancredo Neves International Airport;Category A
+-3.7771555;-38.53309660000002; Pinto Martins – Fortaleza International Airport;Category A
+-16.632488;-49.22211659999999; Santa Genoveva Airport;Category A
+-23.4345529;-46.478125999999975; Sao Paulo International Airport;Category A
+-15.8697369;-47.91723480000002; International Airport of Brasilia;Category A
+-23.328565;-51.13801000000001; Londrina Airport;Category A
+-3.0358474;-60.0463249; Eduardo Gomes International Airport;Category A
+-9.3646085;-40.56520180000001; Petrolina Airport;Category A
+-29.9934732;-51.17538109999998; Salgado Filho International Airport;Category A
+-16.438802;-39.08023400000002; Porto Seguro Airport;Category A
+-8.7145915;-63.90119859999999; Porto Velho International Airport;Category A
+-8.1259315;-34.92401540000003; Recife International Airport;Category A
+-22.9068467;-43.17289649999998; Rio de Janeiro/Galeгo - Antфnio Carlos Jobim International Airport;Category A
+-22.9111438;-43.164875499999994; Santos Dumont Airport;Category A
+-7.119495799999999;-34.84501180000001; Joao Pessoa International Airport;Category A
+-25.5327132;-49.17248110000003; Afonso Pena International Airport;Category A
+22.2568861;-100.9341508; Sгo Luнs International Airport;Category A
+-20.2576489;-40.283534599999996; Eurico de Aguiar Salles Airport;Category A
+-15.6530786;-56.11726870000001; Marechal Rondon International Airport;Category A
+51.1250608;-114.01688949999999; Calgary International Airport;Category A
+53.3075047;-113.58435159999999; Edmonton International Airport;Category A
+46.1125285;-64.67378659999997; Greater Moncton International Airport;Category A
+44.8859455;-63.509445700000015; Halifax Stanfield International Airport;Category A
+43.163717;-79.92633810000001; John C. Munro Hamilton International Airport;Category A
+49.9569281;-119.37873050000002; Kelowna International Airport;Category A
+43.67771760000001;-79.62481969999999; Toronto Pearson International Airport;Category A
+45.319212;-75.66916520000001; Ottawa International Airport;Category A
+46.7907719;-71.38856899999996; Quйbec City Jean Lesage International Airport;Category A
+50.4333487;-104.65562669999997; Regina International Airport;Category A
+46.16339199999999;-60.04216739999998; Sydney/J.A. Douglas McCurdy Airport;Category A
+49.1966913;-123.18151230000001; Vancouver International Airport;Category A
+46.409168;-74.780281; Mont-Tremblant International Airport;Category A
+52.1745886;-106.70048229999998; Saskatoon International Airport;Category A
+49.9098283;-97.2365461; Winnipeg James Armstrong Richardson International Airport;Category A
+40.0798573;116.60311209999998; Beijing Capital International Airport;Category A
+39.9054895;116.39763170000003; Beijing Tiananmen Square;Category A
+43.995219;125.697045; Changchun Longjia International Airport;Category A
+28.1966667;113.22083329999998; Changsha Huanghua International Airport;Category A
+30.567456;103.94929360000003; Chengdu Shuangliu International Airport;Category A
+29.7191667;106.64166669999997; Chongqing Jiangbei International Airport;Category A
+38.96555559999999;121.53833329999998; Dalian Airport;Category A
+25.9306382;119.67019579999999; Fuzhou Changle International Airport;Category A
+23.3959079;113.30796989999999; Guangzhou Baiyun International Airport;Category A
+25.2158795;110.04706529999999; Guilin Liangjiang International Airport;Category A
+26.540692;106.800209; Guiyang Longdongbao International Airport;Category A
+45.622442;126.24338149999994; Harbin Taiping International Airport;Category A
+31.9861881;116.96972340000002; Hefei Xinqiao International Airport;Category A
+25.1013395;102.9349191; Kunming changshui International Airport;Category A
+44.52416669999999;129.56888890000005; Mudanjiang Hailang Airport;Category A
+31.7338222;118.87193939999997; Nanjing Lukou International Airport;Category A
+22.6096443;108.17165820000002; Nanning Wuxu International Airport;Category A
+29.818077;121.46628599999997; Ningbo Lishe International Airport;Category A
+36.2666745;120.3831232; Qingdao International Airport;Category A
+18.303701;109.41266300000007; Sanya Phoenix International Airport;Category A
+31.19189549999999;121.33700739999995; Shanghai Hongqiao International Airport;Category A
+31.1443439;121.80827299999999; Shanghai Pudong International Airport;Category A
+29.2892521;90.90062309999996; Lhasa Gonggar Airport;Category A
+41.6352665;123.49652400000002; Shenyang Taoxian International Airport;Category A
+22.636828;113.81460600000003; Shenzhen Bao'an International Airport;Category A
+30.7766171;114.21244950000005; Wuhan Tianhe International Airport;Category A
+34.437111;108.7573294; Xi'an Xianyang International Airport;Category A
+42.888008;129.44665699999996; Yanji Airport;Category A
+37.4016667;121.37166669999999; Yantai Laishan International Airport;Category A
+34.5253412;113.84615630000008; Zhengzhou Xinzheng International Airport;Category A
+50.08674449999999;14.421597900000052; Prague Airport;Category A
+55.7408067;9.152599900000041; Billund Airport;Category A
+55.6180236;12.650762799999939; Copenhagen Airport;Category A
+59.41639600000001;24.799302300000022; Lennart Meri Tallinn Airport;Category A
+60.32104159999999;24.952860399999963; Helsinki Airport;Category A
+43.4384235;5.214414000000033; Marseille Provence Airport;Category A
+49.0096906;2.547924500000022; Charles de Gaulle Airport;Category A
+52.5588327;13.28843740000002; Berlin Tegel Airport;Category A
+50.8707168;7.140734399999928; Cologne Bonn Airport;Category A
+51.2827846;6.762270100000023; Dьsseldorf International Airport;Category A
+50.0379326;8.562151800000038; Frankfurt Airport;Category A
+53.633622;9.997412800000006; Hamburg Airport;Category A
+48.3536621;11.775027899999941; Munich Airport;Category A
+37.9356467;23.948415599999976; Athens International Airport;Category A
+22.308047;113.9184808; Hong Kong International Airport;Category A
+53.42644809999999;-6.249909800000069; Dublin Airport;Category A
+34.7895799;135.43808949999993; Osaka International Airport;Category A
+35.7719867;140.39285010000003; Narita International Airport;Category A
+35.5493932;139.77983859999995; Tokyo International Airport;Category A
+34.4320024;135.23039389999997; Kansai International Airport;Category A
+35.172806;136.89028899999994; Ch?bu Centrair International Airport;Category A
+51.0223575;71.46700340000007; Astana International Airport;Category A
+43.3499265;77.02528940000002; Almaty International Airport;Category A
+56.9226554;23.973312899999996; Riga International Airport;Category A
+49.6289002;6.214744600000017; Luxembourg Airport;Category A
+35.8541135;14.48327949999998; Malta International Airport;Category A
+60.1975501;11.100415300000009; Oslo Airport;Category A
+38.7755936;-9.135366699999963; Lisbon Portela Airport;Category A
+55.9736482;37.412502899999936; Sheremetyevo International Airport;Category A
+55.59964799999999;37.27123419999998; Vnukovo International Airport;Category A
+39.5517407;2.736164899999949; Palma de Mallorca Airport;Category A
+40.46121;-3.5792300000000523; Madrid-Barajas Airport;Category A
+41.297445;2.083294099999989; Barcelona–El Prat Airport;Category A
+59.6497622;17.923780699999952; Stockholm Arlanda Airport;Category A
+47.4582165;8.555475500000057; Zurich Airport;Category A
+25.067566;121.55269900000008; Taipei Songshan Airport;Category A
+22.7570833;121.10604809999995; Taitung Airport;Category A
+22.574629;120.34480680000001; Kaohsiung International Airport;Category A
+52.3105386;4.768274399999996; Schiphol Amsterdam Airport;Category A
+51.4700223;-0.4542954999999438; Heathrow Airport;Category A
+51.5048437;0.04951800000003459; London City Airport;Category A
+51.1536621;-0.18206290000000536; Gatwick Airport;Category A
+53.3588026;-2.2727303000000347; Manchester Airport;Category A
+52.45238209999999;-1.743507099999988; Birmingham Airport;Category A
+38.851242;-77.0402315; Ronald Reagan Washington National Airport;Category A
+39.1774042;-76.66839219999997; Baltimore/Washington International Thurgood Marshall Airport;Category A
+42.3656132;-71.00956020000001; Boston Logan International Airport;Category A
+39.0532746;-84.66301650000003; Cincinnati/Northern Kentucky International Airport;Category A
+35.2144026;-80.94731460000003; Charlotte Douglas International Airport;Category A
+41.9741625;-87.9073214; Chicago O'Hare International Airport;Category A
+41.4124339;-81.84799249999998; Cleveland Hopkins International Airport;Category A
+33.6407282;-84.42770009999998; Hartsfield-Jackson Atlanta International Airport;Category A
+40.4957722;-80.2413113; Pittsburgh International Airport;Category A
+32.8998091;-97.04033520000002; Dallas/Fort Worth International Airport;Category A
+39.8560963;-104.67373759999998; Denver International Airport;Category A
+26.0742344;-80.15060219999998; Fort Lauderdale-Hollywood International Airport;Category A
+21.3245132;-157.92507360000002; Honolulu International Airport;Category A
+29.9902199;-95.33678270000001; George Bush Intercontinental Airport;Category A
+29.6542141;-95.27665860000002; Houston–Hobby Airport;Category A
+38.8066958;-76.88050599999997; Andrews Air Force Base Airport;Category A
+39.3006427;-94.71259370000001; Kansas City International Airport;Category A
+29.9922012;-90.25901119999997; Louis Armstrong New Orleans International Airport;Category A
+36.0839998;-115.15373890000001; McCarran International Airport;Category A
+33.9415889;-118.40852999999998; Los Angeles International Airport;Category A
+35.0420679;-89.97917289999998; Memphis International Airport;Category A
+25.795865;-80.28704570000002; Miami International Airport;Category A
+37.6213129;-122.3789554; San Francisco International Airport;Category A
+40.6895314;-74.17446239999998; Newark Liberty International Airport;Category A
+28.4311577;-81.30808300000001; Orlando International Airport;Category A
+39.8743959;-75.24242290000001; Philadelphia International Airport;Category A
+33.4372686;-112.00778809999997; Phoenix Sky Harbor International Airport;Category A
+40.6413111;-73.77813909999998; John F. Kennedy International Airport;Category A
+40.7769271;-73.87396590000003; LaGuardia Airport;Category A
+42.2161722;-83.3553842; Detroit Metropolitan Wayne County Airport;Category A
+44.8768438;-93.21758460000001; Minneapolis?Saint Paul International Airport;Category A
+40.7899404;-111.9790706; Salt Lake City International Airport;Category A
+32.715738;-117.16108380000003; San Diego International/Lindbergh Field Airport;Category A
+47.4502499;-122.30881650000003; Seattle-Tacoma International Airport;Category A
+38.7431329;-90.3650945; Lambert–St. Louis International Airport;Category A
+38.9531162;-77.45653879999998; Dulles International Airport;Category A
+27.9834776;-82.53707810000003; Tampa International Airport;Category A
+41.257222;69.28166699999997; Tashkent International Airport;Category A
+42.5758207;21.031137700000045; Pristina International Airport Adem Jashari;Category B
+44.952117;34.10241700000006; Simferopol International Airport;Category B
+34.0022914;74.76219560000004; Srinagar International Airport;Category B
+60.12483280000001;19.907477700000072; Mariehamn Airport;Category B
+41.3275459;19.81869819999997; Tirana International Airport Nлnл Tereza;Category B
+-34.5563214;-58.4142147; Terminal A (Aeroparque Jorge Newbery);Category B
+-34.8150044;-58.53482839999998; Ministro Pistarini International Airport;Category B
+-25.7336736;-54.47837329999999; Cataratas International Airport;Category B
+-32.8324109;-68.79401730000001; Governor Francisco Gabrielli International Airport;Category B
+-43.2099572;-65.27340459999999; Almirante Marco Andrйs Zar Airport;Category B
+-54.8419007;-68.30822690000002; Ushuaia - Malvinas Argentinas International Airport;Category B
+46.9940455;15.440131400000041; Graz Airport;Category B
+48.235278;14.18805599999996; Linz Airport;Category B
+47.2601622;11.349378699999988; Innsbruck Airport;Category B
+46.6499635;14.324325999999928; Klagenfurt Airport;Category B
+47.7926466;13.002927399999976; Salzburg Airport;Category B
+52.5256835;31.015304199999946; Gomel Airport;Category B
+53.6693538;23.813130600000022; Grodno;Category B
+53.8825;28.032500000000027; Minsk National Airport;Category B
+50.4642198;4.464975299999992; Brussels South Charleroi Airport;Category B
+43.8263719;18.336895599999934; Sarajevo International Airport;Category B
+44.9420289;17.29745520000006; Banja Luka International Airport;Category B
+43.2830345;17.843695900000057; Mostar International Airport;Category B
+44.4585963;18.725359400000002; Tuzla International Airport;Category B
+-20.4686937;-54.67412330000002; Augusto Severo International Airport;Category B
+-22.9111438;-43.164875499999994; Santos Dumont Airport;Category B
+42.5666251;27.518128100000013; Burgas Airport;Category B
+42.06777779999999;24.850833299999977; Plovdiv Airport;Category B
+42.2970891;22.71048810000002; Sofia Airport;Category B
+43.231944;27.825278000000026; Varna Airport;Category B
+47.6212101;-52.742442900000015; St. John's International Airport;Category B
+48.9981304;-111.97241940000004; Ross International Airport;Category B
+-27.1616976;-109.42657750000001; Mataveri International Airport;Category B
+-10.451208;105.68854540000007; Christmas Island Airport;Category B
+-12.1909606;96.83308999999997; Cocos Islands Airport;Category B
+-21.2027;-159.805677; Rarotonga International Airport;Category B
+45.2197451;14.571792500000015; Rijeka Airport;Category B
+43.5389248;16.29777409999997; Split Airport;Category B
+44.8990918;13.923331299999973; Pula Airport;Category B
+45.7407504;16.067436499999985; Zagreb Airport;Category B
+44.108056;15.346667000000025; Zadar Airport;Category B
+42.5611109;18.268056; Dubrovnik Airport;Category B
+34.7124274;32.488775600000054; Paphos International Airport;Category B
+34.8723402;33.62035160000005; Larnaca International Airport;Category B
+49.1522313;16.69335090000004; Brno-Turany Airport;Category B
+50.2029424;12.914764600000012; Karlovy Vary Airport;Category B
+49.8209226;18.262524299999995; Leoљ Janб?ek Airport Ostrava;Category B
+50.01781399999999;15.743543400000021; Pardubice Airport;Category B
+56.3080927;10.62630820000004; Aarhus Airport;Category B
+57.0969187;9.856463200000007; Aalborg Airport;Category B
+58.4014385;26.77950050000004; Former Raadi (Tartu) military airfield);Category B
+62.0633297;-7.275460000000066; Vagar Airport;Category B
+-17.7542772;177.43681230000004; Nadi International Airport;Category B
+-18.0424871;178.55312920000006; Nausori Airport;Category B
+67.695583;24.859104900000034; Kittila Airport;Category B
+65.98745749999999;29.24164989999997; Kuusamo Lapland Airports;Category B
+61.044088;28.15643799999998; Lappeenranta Airport;Category B
+64.9308748;25.355837800000018; Oulu Airport;Category B
+61.41485689999999;23.604629599999953; Tampere-Pirkkala Airport;Category B
+66.563104;25.83007829999997; Rovaniemi Airport;Category B
+63.0065284;27.797197200000028; Kuopio Airport;Category B
+60.5114979;22.263285399999972; Turku Airport;Category B
+63.0512476;21.762712999999962; Vaasa Airport;Category B
+43.472009;-1.531372000000033; Biarritz - Anglet - Bayonne Airport;Category B
+44.853806;0.4833919999999807; Bergerac Dordogne Pйrigord Airport;Category B
+46.585936;0.3113470000000689; Poitiers - Biard Airport;Category B
+43.6293863;1.367682000000059; Toulouse-Blagnac Airport;Category B
+43.2160429;2.306334600000014; Carcassonne Airport;Category B
+45.764043;4.835658999999964; Lyon-Saint Exupйry Airport;Category B
+48.5445496;7.627944999999954; Entzheim Airport;Category B
+50.5716603;3.106112899999971; Lille Airport;Category B
+48.4434969;-4.420151199999964; Brest Bretagne Airport;Category B
+46.160329;-1.1511390000000574; La Rochelle – Оle de Rй Airport;Category B
+45.8675349;1.1790799000000334; Limoges-Bellegarde Airport;Category B
+42.54715150000001;9.481182200000035; Poretta Airport;Category B
+45.931073;6.106563000000051; Annecy - Haute-Savoie - Mont Blanc Airport;Category B
+44.837789;-0.5791799999999512; Bordeaux-Mйrignac Airport;Category B
+48.7262433;2.365247199999999; Orly Airport;Category B
+42.7407863;2.868649199999936; Perpignan–Rivesaltes Airport;Category B
+48.5898642;-2.075114699999972; Dinard - Pleurtuit - Saint-Malo Airport;Category B
+47.15741879999999;-1.606231600000001; Nantes Atlantique Airport;Category B
+47.5981804;7.525495800000044; EuroAirport Basel-Mulhouse-Freiburg;Category B
+45.188529;5.724523999999974; Grenoble-Isиre Airport;Category B
+43.6232599;5.1123064999999315; Salon-de-Provence Air Base;Category B
+43.2951;-0.3707970000000387; Pau Pyrйnйes Airport;Category B
+43.610769;3.8767159999999876; Montpellier-Mйditerranйe Airport;Category B
+43.1363357;-89.34580840000001; Fa'a'? International Airport;Category B
+41.6104284;41.60007870000004; Batumi Airport;Category B
+41.6697036;44.956818699999985; Tbilisi Airport;Category B
+52.5588327;13.28843740000002; Berlin Tegel Airport;Category B
+53.5032079;8.571823900000027; Bremerhaven Airport;Category B
+51.517556;7.619673000000034; Dortmund Airport;Category B
+52.4618486;9.688991900000019; Hannover Airport;Category B
+49.9458052;7.264195800000039; Frankfurt-Hahn Airport;Category B
+47.673147;9.524078000000031; Friedrichshafen Airport;Category B
+47.989359;10.232575399999973; Memmingen Airport;Category B
+49.4942157;11.078645999999935; Nuremberg Airport;Category B
+37.6447536;-122.40451200000001; Baden Airpark;Category B
+51.4220814;12.220380500000033; Leipzig/Halle Airport;Category B
+52.52000659999999;13.404953999999975; Berlin Schцnefeld Airport;Category B
+48.6876365;9.205576000000065; Stuttgart Airport;Category B
+36.1539454;-5.347099999999955; Gibraltar International Airport;Category B
+35.5398404;24.1401525; Chania International Airport;Category B
+38.965621;24.485048000000006; Skyros Island National Airport;Category B
+35.337124;25.173721; Heraklion International Airport;Category B
+35.4204316;27.14692260000004; Karpathos Island National Airport;Category B
+39.601944;19.91222199999993; Corfu International Airport;Category B
+36.8016085;27.090053099999977; Kos Island International Airport;Category B
+39.214443;22.795555000000036; Nea Anchialos National Airport;Category B
+37.055229;22.034124799999972; Kalamata International Airport;Category B
+37.437222;25.347221999999988; Mykonos Island National Airport;Category B
+36.405278;28.08611099999996; Rhodes International Airport;Category B
+37.6896035;26.913117899999975; Samos International Airport;Category B
+39.1764996;23.501146999999946; Skiathos Airport ‘Alexandros Papadiamantis;Category B
+40.5204227;22.971675799999957; Thessaloniki Airport;Category B
+36.4003185;25.477647599999955; Santorini Airport;Category B
+39.0530887;26.60300899999993; Mytilene International Airport;Category B
+13.483056;144.79555600000003; Antonio B. Won Pat International Airport;Category B
+49.434081;-2.599488699999938; Guernsey Airport;Category B
+47.4384587;19.252295799999956; Budapest Airport;Category B
+47.491839;21.608592000000044; Debrecen Airport;Category B
+46.6861109;17.158888899999965; FlyBalaton Airport;Category B
+65.6586109;-18.07222200000001; Akureyri Airport;Category B
+23.0734262;72.62657100000001; Sardar Vallabhbhai Patel International Airport;Category B
+25.4520907;82.86103249999996; Lal Bahadur Shastri International Airport;Category B
+31.7055254;74.80680059999997; Sri Guru Ram Dass Jee International Airport;Category B
+23.2909735;77.33561889999999; Raja Bhoj Airport;Category B
+20.2543001;85.8164084; Biju Patnaik International Airport;Category B
+26.6815486;88.32974990000002; Bagdogra Airport;Category B
+12.994112;80.1708668; Chennai International Airport;Category B
+11.042017;76.97586999999999; Coimbatore Airport;Category B
+13.1980392;77.68363420000003; Kempegowda International Airport;Category B
+24.7489603;84.94367929999999; Gaya Airport;Category B
+26.1064727;91.58604679999996; Lokpriya Gopinath Bordoloi International Airport;Category B
+17.2402633;78.42938509999999; Rajiv Gandhi International Airport;Category B
+26.8278113;75.80586110000002; Jaipur International Airport;Category B
+11.1369083;75.95097550000003; Calicut International Airport;Category B
+22.6520429;88.44632990000002; Netaji Subhash Chandra Bose International Airport;Category B
+24.7644009;93.89727149999999; Imphal Airport;Category B
+26.7617317;80.88565500000004; Chaudhary Charan Singh International Airport;Category B
+9.8385898;78.08952219999992; Madurai Airport;Category B
+12.9505731;74.87242560000004; Mangalore International Airport;Category B
+19.0901765;72.86873909999997; Chhatrapati Shivaji International Airport;Category B
+21.0908217;79.05465070000002; Dr. Babasaheb Ambedkar International Airport;Category B
+10.1517834;76.39295800000002; Cochin International Airport;Category B
+28.5561624;77.09995779999997; Indira Gandhi International Airport;Category B
+18.5823317;73.91859069999998; Pune International Airport;Category B
+10.7614339;78.70920760000001; Tiruchirapalli International Airport;Category B
+15.3803485;73.83499519999998; Goa International Airport;Category B
+17.7276574;83.22370969999997; Visakhapatnam Airport;Category B
+52.6996573;-8.914691100000027; Shannon Airport;Category B
+51.8449269;-8.492791699999998; Cork Airport;Category B
+52.18083300000001;-9.52361099999996; Kerry Airport;Category B
+53.9136782;-8.811272899999949; Ireland West Airport Knock;Category B
+45.1965359;7.647867000000019; Turin Airport;Category B
+40.6332779;8.289684599999987; Alghero Fertilia Airport;Category B
+41.137508;16.765202000000045; Bari International Airport-Karol Wojtyla;Category B
+44.5345216;11.287859300000036; Bologna Guglielmo Marconi Airport;Category B
+40.6570717;17.9383325; Salento Airport;Category B
+37.4673046;15.06577459999994; Catania Fontanarossa Airport;Category B
+45.4000011;10.890140599999995; Verona Villafranca Airport;Category B
+39.2238411;9.121661300000028; Cagliari International Airport;Category B
+43.6082861;13.35704439999995; Falconara Airport;Category B
+44.3844766;7.542671100000007; Cuneo International Airport;Category B
+44.413962;8.846528000000035; Cristoforo Colombo Airport;Category B
+38.9065845;16.24340170000005; Lamezia Terme International Airport;Category B
+45.4255814;10.327007900000012; Brescia Airport Gabriele D'Annunzio;Category B
+40.8829943;14.286579200000006; Naples International Airport;Category B
+45.66957070000001;9.703631299999984; Bergamo Orio al Serio International Airport;Category B
+43.1107168;12.390827899999977; Perugia San Francesco d'Assisi – Umbria International Airport;Category B
+42.43167200000001;14.185202000000004; Abruzzo Airport;Category B
+45.4521756;9.276307900000006; Milan Linate Airport;Category B
+43.6890842;10.397884500000032; Pisa International Airport;Category B
+38.1824001;13.100581899999952; Falcone Borsellino Airport;Category B
+44.02288799999999;12.61881900000003; Federico Fellini International Airport;Category B
+45.8214276;13.48485949999997; Trieste – Friuli Venezia Giulia Airport;Category B
+45.6300625;8.725530700000036; Malpensa Airport;Category B
+37.909518;12.49252260000003; Vincenzo Florio Airport Trapani-Birgi;Category B
+-37.7473505;144.91406230000007; Marco Polo Airport;Category B
+31.8762088;131.44732250000004; Miyazaki Airport;Category B
+39.6154068;140.19640979999997; Akita Airport;Category B
+42.7925942;141.67047849999994; New Chitose Airport;Category B
+33.5903145;130.44670910000002; Fukuoka Airport;Category B
+41.7756203;140.81524279999996; Hakodate Airport;Category B
+37.9522972;139.11343250000004; Niigata Airport;Category B
+43.671078;142.45389569999998; KAsahikawa Airport;Category B
+38.410559;140.36647130000006; Yamagata Airport;Category B
+32.8345237;130.8582374; Kumamoto Airport;Category B
+31.8028526;130.7180234; Kagoshima Airport;Category B
+33.8396154;131.03177970000002; Kitakyushu Airport;Category B
+33.4771814;131.7326541; Oita Airport;Category B
+43.0451663;144.19626189999997; Kushiro Airport;Category B
+33.8290156;132.70407850000004; Matsuyama Airport;Category B
+34.4398632;132.91902149999999; Hiroshima Airport;Category B
+26.2064033;127.6465422; Naha Airport;Category B
+33.5474925;133.67415589999996; Kochi Airport;Category B
+38.1397222;140.91694440000003; Sendai Airport;Category B
+42.7322097;143.21287670000004; Obihiro Airport;Category B
+32.91364300000001;129.9184937; Nagasaki Airport;Category B
+34.2187053;134.01854720000006; Takamatsu Airport;Category B
+33.9330182;131.2750353; amaguchi-Ube Airport;Category B
+45.3995562;141.79745589999993; Wakkanai Airport;Category B
+34.59799539999999;135.59626579999997; Yao Airport;Category B
+49.2074637;-2.195220699999936; Jersey Airport;Category B
+1.381568;173.14699599999994; Bonriki International Airport;Category B
+1.9861111;-157.34972219999997; Cassidy International Airport;Category B
+57.3615603;21.547026800000026; Ventspils International Airport;Category B
+54.6380366;25.286558300000024; Vilnius International Airport;Category B
+41.1812066;20.745317699999987; Ohrid St. Paul the Apostle Airport;Category B
+41.960876;21.62719179999999; Skopje Alexander the Great Airport;Category B
+8.720727;167.73137999999994; Bucholz Army Airfield;Category B
+7.065188999999999;171.272737; Marshall Islands International Airport;Category B
+6.982228;158.20369099999994; Pohnpei Airport;Category B
+7.4580255;151.8408018; Chuuk International Airport;Category B
+9.49917;138.08260399999995; Yap International Airport;Category B
+46.935444;28.93496700000003; Chi?in?u International Airport;Category B
+42.359167;19.251666999999998; Podgorica Airport;Category B
+42.404444;18.723056000000042; Tivat Airport;Category B
+-0.547613;166.91911200000004; Nauru International Airport;Category B
+-22.0169673;166.21604479999996; La Tontouta International Airport;Category B
+-37.0082476;174.78503580000006; Auckland Airport;Category B
+-43.4863981;172.53687049999996; Christchurch International Airport;Category B
+-45.9258615;170.2021681; Dunedin International Airport;Category B
+-45.0311622;168.66264350000006; Queenstown International Airport;Category B
+-38.1093529;176.3173666; Rotorua International Airport;Category B
+-41.3275941;174.80759839999996; Wellington International Airport;Category B
+-19.077778;-169.926667; Niue International Airport;Category B
+14.172008;145.24376099999995; Rota International Airport;Category B
+60.29183;5.222017300000061; Bergen Airport; Flesland
+59.3441462;5.215585799999985; Haugesund Airport;Category B
+59.3783741;10.78419699999995; Moss Airport Rygge;Category B
+59.1824458;10.256912100000022; Sandefjord Airport; Torp
+58.88044069999999;5.631402200000025; Stavanger Airport; Sola
+7.367359;134.53879499999994; Koror Airport;Category B
+-9.441944000000001;147.218889; Jacksons International Airport;Category B
+54.3788433;18.468075; Gdansk Lech Walesa Airport;Category B
+51.7197051;19.39080910000007; Lodz Airport;Category B
+52.2296756;21.012228700000037; Warsaw-Modlin Mazovia Airport;Category B
+52.4142661;16.83764229999997; Aero Pozna?;Category B
+52.1672369;20.967891099999974; Warsaw Chopin Airport;Category B
+51.1041654;16.880933099999993; Copernicus Airport Wroc?aw;Category B
+53.0979509;17.972681299999977; Bydgoszcz Ignacy Jan Paderewski Airport;Category B
+37.0175956;-7.969720000000052; Faro Airport;Category B
+33.0749387;-16.350031899999976; Porto Santo Airport;Category B
+37.7494112;-25.710020600000007; Joгo Paulo II Airport;Category B
+32.6957983;-16.775873700000034; Madeira Airport;Category B
+38.75388;-27.086943099999985; Lajes Airport;Category B
+46.782063;23.687013999999976; Avram Iancu International Airport Cluj;Category B
+25.795865;-80.28704570000002; Ia?i Airport;Category B
+44.361944;28.48833300000001; Mihail Kog?lniceanu International Airport;Category B
+45.7872169;24.09295629999997; Sibiu International Airport;Category B
+52.0262959;113.30468450000001; Chita Airport;Category B
+64.6001509;40.716468899999995; Talagi Airport;Category B
+43.3948533;132.14774220000004; Vladivostok International Airport;Category B
+55.6078329;49.301145099999985; Kazan Airport;Category B
+48.5027313;135.06625989999998; Khabarovsk Novy Airport;Category B
+55.01135410000001;82.65216299999997; Tolmachevo Airport;Category B
+47.2561113;39.802457600000025; Rostov-na-Dony Airport;Category B
+59.798173;30.26872800000001; Pulkovo 1 airport;Category B
+19.1366792;72.8533486; Ufa International Airport;Category B
+62.08710399999999;129.75047100000006; Yakutsk Airport;Category B
+43.4487326;39.9420245; Krasnodar International Airport;Category B
+54.8829858;20.586627200000066; Khrabrovo Airport;Category B
+-13.83045;-172.00810990000002; Faleolo International Airport;Category B
+44.8198363;20.291708299999982; Belgrade Nikola Tesla Airport;Category B
+43.3376566;21.86627079999994; Nis Constantine the Great Airport Terminal;Category B
+48.1702634;17.210523800000033; Bratislava Airport;Category B
+46.0569465;14.505751499999974; Ljubljana Joћe Pu?nik Airport;Category B
+-9.428056;160.05305599999997; Honiara International Airport;Category B
+35.17322;128.94645909999997; Gimhae International Airport;Category B
+36.7153571;127.49702460000003; Cheongju International Airport;Category B
+35.89941940000001;128.63839499999995; Daegu International Airport;Category B
+33.51041350000001;126.49135339999998; Jeju International Airport;Category B
+34.9935855;126.38784379999993; Muan International Airport;Category B
+37.5586545;126.79447389999996; Gimpo International Airport;Category B
+38.058812;128.6629583; Yangyang International Airport;Category B
+42.0811467;-0.32238630000006196; Huesca-Pirineos Airport;Category B
+43.4255568;-3.8257727999999815; Santander Airport;Category B
+43.561015;-6.035067600000048; Asturias Airport;Category B
+38.9848295;-3.927377799999931; Ciudad Real Central Airport;Category B
+38.285483;-0.5600560000000314; Alicante Airport;Category B
+41.7269786;0.5396865999999818; Lleida-Alguaire Airport;Category B
+37.7756363;-0.8183748000000151; Murcia-San Javier Airport;Category B
+40.1543888;-75.07530550000001; Menorca Airport;Category B
+6.7049862;-72.73004530000003; Malaga Airport;Category B
+28.950438;-13.605776900000023; Lanzarote Airport;Category B
+28.451077;-13.866358300000002; Fuerteventura Airport;Category B
+41.1469756;1.153339200000005; Reus Airport;Category B
+38.8748594;1.3712232000000313; Ibiza Airport;Category B
+42.89178889999999;-8.421176400000036; Santiago de Compostela Airport;Category B
+37.4201674;-5.8930500000000166; Seville Airport;Category B
+27.9331848;-15.387706600000001; Gran Canaria Airport;Category B
+39.4892327;-0.4780256000000236; Valencia Airport;Category B
+39.5517407;2.736164899999949; La Palma Airport;Category B
+41.7062218;-4.84954879999998; Valladolid Airport;Category B
+41.8982005;2.766065600000047; Girona-Costa Brava Airport;Category B
+41.6635369;-1.0079114000000118; Zaragoza Airport;Category B
+57.668799;12.292314000000033; Gothenburg-Landvetter Airport;Category B
+57.7779536;11.864628799999991; Gothenburg City Airport;Category B
+57.6623443;18.3439214; Visby Airport;Category B
+59.38878099999999;18.324472799999967; Stockholm Skavsta Airport;Category B
+59.32932349999999;18.068580800000063; Stockholm Vдsterеs Airport;Category B
+46.913491;7.500754000000029; Bern-Belp Airport;Category B
+47.485;9.56194400000004; St. Gallen-Altenrhein Airport;Category B
+51.458088;5.391926000000012; Eindhoven Airport;Category B
+50.9123516;5.765991100000065; Maastricht Aachen Airport;Category B
+51.95550859999999;4.43988319999994; Rotterdam The Hague Airport;Category B
+36.9835762;35.29611380000006; Adana Airport;Category B
+40.1244399;32.991672600000015; Ankara Esenboga Airport;Category B
+38.4358624;38.0900699; Malatya Airport;Category B
+36.9043327;30.801876799999945; Antalya Airport;Category B
+38.7750612;34.52388350000001; Nev?ehir Kapadokya Airport;Category B
+40.9829888;28.810442500000022; Istanbul Ataturk Airport;Category B
+38.293763;27.15202850000003; Izmir Adnan Menderes Airport;Category B
+37.248656;27.66399249999995; Milas-Bodrum Airport;Category B
+36.9452184;37.473120300000005; Gaziantep Airport;Category B
+37.987039;32.562615999999935; Konya Airport;Category B
+40.9944758;39.78089870000008; Trabzon Airport;Category B
+40.1502308;26.456103600000006; Yeni?ehir Airport;Category B
+41.2797031;36.33606669999995; Samsun-Зar?amba Airport;Category B
+-8.524488200000002;179.19656810000004; Funafuti International Airport;Category B
+48.36762479999999;35.09380590000001; Dnipropetrovsk International Airport;Category B
+47.0565374;31.917868399999975; Mykolaiv International Airport;Category B
+48.26685510000001;25.96721649999995; Chernivtsy International Airport;Category B
+48.015883;37.802850000000035; Donetsk Sergey Prokofiev International Airport;Category B
+48.88718979999999;24.690908000000036; Ivano-Frankivsk Airport;Category B
+49.9218303;36.27998839999998; International Airport Kharkiv;Category B
+48.0463072;33.21458819999998; Kryvyi Rih International Airport;Category B
+48.574041;39.307815000000005; Luhansk International Airport;Category B
+46.4298271;30.677440899999965; Odessa International Airport;Category B
+47.873317;35.301958300000024; Zaporozhye Airport;Category B
+49.8131299;23.959909899999957; Danylo Halytskyi International airport Lviv;Category B
+57.20369789999999;-2.2001617999999326; Aberdeen Airport;Category B
+54.6623885;-6.217727500000024; Belfast International Airport;Category B
+54.6176164;-5.871830400000022; George Best Belfast City Airport;Category B
+50.7776736;-1.8324529999999868; Bournemouth Airport;Category B
+55.950785;-3.361453200000028; Edinburgh Airport;Category B
+54.509167;-1.4291670000000067; Durham Tees Valley International Airport;Category B
+50.7311648;-3.4169690999999602; Exeter International Airport;Category B
+51.8860181;0.23886609999999564; Stansted Airport;Category B
+53.480662;-1.0104639999999563; Robin Hood Airport;Category B
+50.9514562;-1.3577021999999488; Southampton Airport;Category B
+57.539625;-4.063251400000013; Inverness Airport;Category B
+52.82937399999999;-1.3321339999999964; East Midlands Airport;Category B
+53.3347023;-2.8539448999999877; Liverpool John Lennon Airport;Category B
+51.87626460000001;-0.3717470999999932; London Luton Airport;Category B
+51.38363039999999;-2.7135462999999618; Bristol Airport;Category B
+52.6698628;1.2770837000000483; Norwich International Airport;Category B
+55.8690744;-4.43505289999996; Glasgow Airport;Category B
+55.5089021;-4.610980599999948; Glasgow Prestwick Airport;Category B
+51.3985707;-3.339608099999964; Cardiff Airport;Category B
+51.5695631;0.7037258000000293; London Southend Airport;Category B
+50.446424;-5.002059000000031; Newquay Cornwall Airport;Category B
+55.03595;-1.711059999999975; Newcastle Airport;Category B
+53.86794339999999;-1.6615305999999919; Leeds Bradford International Airport;Category B
+41.0326682;-81.46909319999997; Akron Fulton International;Category B
+35.0433333;-106.6129085; Albuquerque International Sunport;Category B
+31.3223879;-92.54288059999999; Alexandria International Airport;Category B
+27.740833;-98.027222; Alice International Airport;Category B
+40.65294129999999;-75.43650159999999; Lehigh Valley International Airport;Category B
+61.17588629999999;-149.9900791; Ted Stevens Anchorage International Airport;Category B
+44.48615849999999;-88.13208179999998; Austin Straubel International Airport;Category B
+30.1974292;-97.66630580000003; Austin-Bergstrom International Airport;Category B
+35.4329123;-119.05661800000001; Meadows Field Airport;Category B
+48.7956526;-122.53307340000003; Bellingham International Airport;Category B
+45.8057592;-108.54546959999999; Billings Logan International Airport;Category B
+33.5624269;-86.75412599999999; Birmingham-Shuttlesworth International Airport;Category B
+25.9064399;-97.4318184; Brownsville South Padre Island International Airport;Category B
+42.9397059;-78.7295067; Buffalo Niagara International Airport;Category B
+32.669445;-115.51333599999998; Calexico International Airport;Category B
+42.8988905;-106.46786299999997; Casper–Natrona County International Airport;Category B
+41.78677589999999;-87.75218840000002; Chicago Midway International Airport;Category B
+27.9067742;-82.69171500000004; St. Petersburg-Clearwater International Airport;Category B
+41.4496341;-90.5082706; Quad City International Airport;Category B
+39.9999399;-82.8871767; Port Columbus International Airport;Category B
+39.8151705;-82.9357908; Rickenbacker International Airport;Category B
+27.7724235;-97.50218289999998; Corpus Christi International Airport;Category B
+48.9983024;-112.78747069999997; Del Bonita/Whetstone International Airport;Category B
+29.1795453;-81.05614579999997; Daytona Beach International Airport;Category B
+29.3705861;-100.92021299999999; Del Rio International Airport;Category B
+41.5341333;-93.65879580000001; Des Moines International Airport;Category B
+43.991667;-76.0216567; Watertown International Airport;Category B
+46.8386505;-92.18002939999997; Duluth International Airport;Category B
+28.857093;-100.51346799999999; Maverick County Memorial International Airport;Category B
+26.448549;-98.1220194; South Texas International Airport at Edinburg;Category B
+39.4513116;-74.5721964; Atlantic City International Airport;Category B
+31.8053354;-106.38243449999999; El Paso International Airport;Category B
+42.0825101;-80.17473910000001; Erie International Airport;Category B
+64.8164163;-147.86351690000004; Fairbanks International Airport;Category B
+46.91992399999999;-96.8256629; Hector International Airport;Category B
+42.96879029999999;-83.74432660000002; Bishop International Airport;Category B
+26.5337051;-81.75530830000002; Southwest Florida International Airport;Category B
+40.9864636;-85.18814789999999; Fort Wayne International Airport;Category B
+32.8204257;-97.35975859999996; Meacham International Airport;Category B
+43.5328989;-84.08507659999998; MBS International Airport;Category B
+36.7758493;-119.71810829999998; Fresno Yosemite International Airport;Category B
+55.8690744;-4.43505289999996; Glasgow Airport;Category B
+42.8846633;-85.52484340000001; Gerald R. Ford International Airport;Category B
+47.4823898;-111.3567377; Great Falls International Airport;Category B
+36.1043671;-79.9351805; Piedmont Triad International Airport;Category B
+34.8959008;-82.21723380000003; Greenville-Spartanburg International Airport;Category B
+30.41338;-89.07295799999997; Gulfport-Biloxi International Airport;Category B
+46.3487282;-87.39515499999999; Sawyer International Airport;Category B
+26.223905;-97.66201699999999; Valley International Airport;Category B
+46.1216784;-67.79167080000002; Houlton International Airport;Category B
+34.6403329;-86.77568989999997; Huntsville International Airport;Category B
+39.7168593;-86.29559519999998; Indianapolis International Airport;Category B
+48.566111;-93.40305599999999; Falls International Airport;Category B
+30.49407129999999;-81.68793679999999; Jacksonville International Airport;Category B
+42.2080651;-75.98226829999999; Greater Binghamton Airport;Category B
+58.3579806;-134.5831791; Juneau International Airport;Category B
+19.736916;-156.0429246; Kona International Airport;Category B
+48.3110959;-114.25424250000003; Glacier Park International Airport;Category B
+55.3554106;-131.71056039999996; Ketchikan International Airport;Category B
+24.556987;-81.75739699999997; Key West International Airport;Category B
+46.257754;-84.47433079999996; Chippewa County International Airport;Category B
+30.2104566;-93.1450729; Chennault International Airport;Category B
+42.7750204;-84.5894265; Capital Region International airport;Category B
+27.5437988;-99.45750149999998; Laredo International Airport;Category B
+32.2908224;-106.92080490000001; Las Cruces Airport;Category B
+42.7487124;-73.80549810000002; Albany International Airport;Category B
+38.175662;-85.73692310000001; Louisville International Airport;Category B
+33.6562701;-101.82097490000001; Preston Smith International Airport;Category B
+44.935833;-74.84555599999999; Massena International Airport;Category B
+26.1759998;-98.23903969999998; McAllen International Airport;Category B
+42.368593;-122.87400200000002; Rogue Valley International-Medford Airport;Category B
+28.0979886;-80.63124779999998; Melbourne International Airport;Category B
+40.1942375;-76.75766720000001; Harrisburg International Airport;Category B
+42.9475534;-87.89664599999998; General Mitchell International Airport;Category B
+46.9188167;-114.08373619999998; Missoula International Airport;Category B
+47.1899553;-119.32439069999998; Grant County International Airport;Category B
+33.6822019;-78.92789429999999; Myrtle Beach International Airport;Category B
+36.126317;-86.6773713; Nashville International Airport;Category B
+41.4985635;-74.1004385; Stewart International Airport;Category B
+43.0801562;-70.8229905; Portsmouth International Airport at Pease;Category B
+37.131667;-76.49277799999999; Newport News/Williamsburg International Airport;Category B
+43.105806;-78.94325470000001; Niagara Falls International Airport;Category B
+36.8956837;-76.20001609999997; Norfolk International Airport;Category B
+32.8942676;-80.03815900000001; Charleston International Airport;Category B
+37.7125689;-122.2197428; Oakland International Airport;Category B
+44.681667;-75.46527800000001; Ogdensburg International Airport;Category B
+34.0559781;-117.59805699999998; LA/Ontario International Airport;Category B
+33.8303194;-116.50704680000001; Palm Springs International Airport;Category B
+32.3122283;-90.07642169999997; Jackson-Medgar Wiley Evers International Airport;Category B
+30.4738158;-87.1867049; Pensacola International Airport;Category B
+40.664167;-89.69305600000001; General Wayne A. Downing Peoria International Airport;Category B
+41.3362461;-75.7311489; Wilkes-Barre/Scranton International Airport;Category B
+44.6597091;-73.46722069999998; Plattsburgh International Airport;Category B
+48.0538369;-122.81065769999998; Jefferson County International Airport;Category B
+42.2332103;-85.54940729999998; Kalamazoo/Battle Creek International Airport;Category B
+45.58976939999999;-122.5950942; Portland International Airport;Category B
+43.6464785;-70.3096974; Portland International Jetport;Category B
+35.88007899999999;-78.78799630000003; Durham International Airport;Category B
+39.4995907;-119.76809509999998; Reno-Tahoe International Airport;Category B
+37.5065795;-77.32081119999998; Richmond International Airport;Category B
+43.1225229;-77.66657220000002; Greater Rochester International Airport;Category B
+43.9109834;-92.4967704; Rochester International Airport;Category B
+42.19629949999999;-89.09862279999999; Chicago Rockford International Airport;Category B
+38.6950854;-121.5900648; Sacramento International Airport;Category B
+29.5311973;-98.46834839999997; San Antonio International Airport;Category B
+32.7338006;-117.19330379999997; San Diego International Airport;Category B
+37.3639472;-121.92893750000002; Mineta San Josй International Airport;Category B
+33.6761901;-117.86747589999999; John Wayne Airport;Category B
+27.395444;-82.55438900000001; Sarasota-Bradenton International Airport;Category B
+32.1294267;-81.2018521; Savannah/Hilton Head International Airport;Category B
+42.9114635;-82.52767110000002; Saint Clair County International Airport;Category B
+44.4706939;-73.15160370000001; Burlington International Airport;Category B
+30.3529337;-85.79426950000004; Northwest Florida Beaches International Airport;Category B
+47.62174779999999;-117.53481199999999; Spokane International Airport;Category B
+41.7017686;-74.7960177; Sullivan County International Airport;Category B
+41.5923899;-83.80601810000002; Toledo Express Airport;Category B
+32.1145102;-110.9392269; Tucson International Airport;Category B
+36.198778;-95.88386589999999; Tulsa International Airport;Category B
+39.90252419999999;-84.22177190000002; Dayton International Airport;Category B
+41.7245271;-71.4304062; T. F. Green Airport;Category B
+42.6654426;-83.41989990000002; Oakland County International Airport;Category B
+26.6857475;-80.09281650000003; Palm Beach International Airport;Category B
+34.2668021;-77.91037080000001; Wilmington International Airport;Category B
+41.9388735;-72.68603139999999; Bradley International Airport;Category B
+32.668603;-114.59899100000001; Yuma International Airport;Category B
+-17.6999984;168.3194985; Bauerfield International Airport;Category B

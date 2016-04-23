@@ -1,0 +1,26 @@
+﻿<div>
+
+    <div class="map-container col-md-10">
+
+        <ui-gmap-google-map center='vm.map.center' zoom='vm.map.zoom'>
+
+            <ui-gmap-marker coords="vm.marker.coords" options="vm.marker.options" events="vm.marker.events" idKey="vm.marker.id">
+            </ui-gmap-marker>
+            
+
+
+
+        </ui-gmap-google-map>
+
+
+    </div>
+
+
+    <div class="side-bar col-md-2">
+        {{vm.weatherStatus}}
+        
+
+    </div>
+
+
+</div>
