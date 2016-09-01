@@ -34,11 +34,11 @@
 # Linters
 - cpplint.py
 
-- DroneCrush/DroneCrush/Scripts/*.js
-- DroneCrush/DroneCrush/Scripts/bower_components/
+
 
 # Node dependencies
 - node_modules/
+- DroneCrush/
 
 # Bower Components
 - bower_components/
