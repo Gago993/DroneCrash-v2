@@ -38,7 +38,6 @@
 
 # Node dependencies
 - node_modules/
-- DroneCrush/
 
 # Bower Components
 - bower_components/
@@ -59,6 +58,8 @@
 # Bootstrap css and js
 - (^|/)bootstrap([^.]*)\.(js|css|less|scss|styl)$
 - (^|/)custom\.bootstrap([^\s]*)(js|css|less|scss|styl)$
+
+- *.(js|css|less|scss|styl)$
 
 # Font Awesome
 - (^|/)font-awesome\.(css|less|scss|styl)$
